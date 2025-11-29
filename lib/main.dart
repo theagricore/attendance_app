@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
         BlocProvider<AttendanceBloc>(create: (context) => sl<AttendanceBloc>()),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Attendance App',
         theme: ThemeData(),
         home: const SplashScreen(),
         debugShowCheckedModeBanner: false,
